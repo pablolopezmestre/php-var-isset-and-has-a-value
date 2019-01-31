@@ -13,6 +13,6 @@ if ( true === ( isset( $my_var ) ? $my_var : null ) ) {
 }
 
 // Using PHP 7 null coalesce operator
- <?php if ( true === ( $my_var ?? null ) ) {
+if ( true === ( $my_var ?? null ) ) {
     // do something
 }
